@@ -1,0 +1,92 @@
+﻿<Page x:Class="Employee_Task_Manager.Pages.AdminAddTask"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Employee_Task_Manager.Pages"
+      xmlns:components="clr-namespace:Employee_Task_Manager.Components"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AdminAddTask">
+
+    <Grid Background="White" Margin="0,0,10,-320">
+        <!--Entire Page divided into two Rows-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!--Navbar-->
+        <Grid Grid.Row="0">
+            <components:Navbar RenderButton="true"/>
+        </Grid>
+
+        <Grid Grid.Row="1" >
+            <StackPanel  HorizontalAlignment="Center" VerticalAlignment="Top">
+                <Label Content="Title (20 Chars Max)"  Foreground="#232F34" FontSize="20" Margin="0 10 0 10"/>
+                <TextBox
+                    Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                    VerticalAlignment="Top"
+                    Height="100"
+                    Width="300"
+                    TextWrapping="Wrap"
+                    FontSize="20"
+                    Foreground="#232F34"
+                    HorizontalAlignment="Left"
+                    Name="txtTitle"
+                    MaxLength="20"
+                    Text="{Binding TaskTitle}"
+                    TextChanged="TaskTitleUpdated"
+                    materialDesign:TextFieldAssist.CharacterCounterVisibility="{Binding Path=IsChecked, ElementName=MaterialDesignOutlinedTextBoxTextCountComboBox, Converter={StaticResource BooleanToVisibilityConverter}}"
+                    VerticalScrollBarVisibility="Auto"
+                    BorderThickness="1"/>
+
+                <Label Content="Description (500 Chars Max)"  Foreground="#232F34" FontSize="20" Margin="0 10 0 10"/>
+                <TextBox
+                    AcceptsReturn="True"
+                    Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                    VerticalAlignment="Top"
+                    Height="200"
+                    Width="300"
+                    TextWrapping="Wrap"
+                    FontSize="20"
+                    Foreground="#232F34"
+                    HorizontalAlignment="Left"
+                    MaxLength="500"
+                    Name="txtDescription"
+                    TextChanged="TaskDescriptionUpdated"
+                    materialDesign:TextFieldAssist.CharacterCounterVisibility="{Binding Path=IsChecked, ElementName=MaterialDesignOutlinedTextBoxTextCountComboBox, Converter={StaticResource BooleanToVisibilityConverter}}"
+                    VerticalScrollBarVisibility="Auto"
+                    BorderThickness="1"/>
+
+                <Label Content="Status"  Foreground="#232F34" FontSize="20" Margin="0 10 0 10"/>
+                <ComboBox
+                    x:Name="txtStatus"
+                    Style="{StaticResource MaterialDesignOutlinedComboBox}"
+                    SelectionChanged="ComboBox_SelectionChanged"
+                    materialDesign:HintAssist.Hint="Set Status"
+                    Width="300" >
+                    <ComboBoxItem Content="To-Do" />
+                    <ComboBoxItem Content="In Progress" />
+                    <ComboBoxItem Content="Done" />
+                </ComboBox>
+                
+                <Label Content="Assign to"  Foreground="#232F34" FontSize="20" Margin="0 10 0 10"/>
+                <ComboBox
+                    x:Name="cbAssignTo"
+                    Style="{StaticResource MaterialDesignOutlinedComboBox}"
+                    SelectionChanged="ComboBox_SelectionChangedAssignee"
+                    materialDesign:HintAssist.Hint="Assign to..."
+                    Width="300" />
+
+                <Viewbox Width="280" Margin="0 50 0 10">
+                    <StackPanel Orientation="Horizontal">
+                        <components:Button Title="Save" Action="AddTask" Margin="4" x:Name="SaveTaskButton"/>
+                        <components:Button Title="Cancel" Action="Cancel" Margin="4" SetBackgroudColor="#7f8282" SetBorderBrushColor="#7f8282"/>
+                    </StackPanel>
+                </Viewbox>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

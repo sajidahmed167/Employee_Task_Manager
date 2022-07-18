@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="Employee_Task_Manager.Components.Navbar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <!--Employee Task Manager Logo-->
+        <Viewbox Grid.Column="0" Grid.ColumnSpan="5">
+            <TextBlock 
+            Text="Employee Task Manager"
+            VerticalAlignment="Center"
+            FontWeight="Bold"
+             />
+        </Viewbox>
+
+        <!--Logout Button top right-->
+        <Viewbox Grid.Column="14"
+            Grid.ColumnSpan="2"
+            Visibility="{Binding ShouldRender}"
+        >
+            <Button
+                Content="Logout"
+                Click="Logout"
+                Margin="15"
+                BorderBrush="#00F5BC"
+                Background="#00F5BC"
+             />
+        </Viewbox>
+
+        <Rectangle
+        Grid.Column="0"
+        Grid.ColumnSpan="16"
+        HorizontalAlignment="Stretch"
+        VerticalAlignment="Bottom"
+        Fill="#00F5BC"
+        Height="4"
+        />
+    </Grid>
+</UserControl>

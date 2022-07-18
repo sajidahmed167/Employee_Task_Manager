@@ -1,0 +1,25 @@
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\bin\Debug\net6.0-windows\Employee Task Manager.exe
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\bin\Debug\net6.0-windows\Employee Task Manager.deps.json
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\bin\Debug\net6.0-windows\Employee Task Manager.runtimeconfig.json
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\bin\Debug\net6.0-windows\Employee Task Manager.dll
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\bin\Debug\net6.0-windows\Employee Task Manager.pdb
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\Employee Task Manager.csproj.AssemblyReference.cache
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\App.g.cs
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\Employee Task Manager_MarkupCompile.cache
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\Employee Task Manager_MarkupCompile.lref
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\Employee Task Manager.g.resources
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\Employee Task Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\Employee Task Manager.AssemblyInfoInputs.cache
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\Employee Task Manager.AssemblyInfo.cs
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\Employee Task Manager.csproj.CoreCompileInputs.cache
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\Employee Task Manager.dll
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\refint\Employee Task Manager.dll
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\Employee Task Manager.pdb
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\Employee Task Manager.genruntimeconfig.cache
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\ref\Employee Task Manager.dll
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\App.baml
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\Employee Task Manager.csproj.CopyComplete

@@ -1,0 +1,20 @@
+﻿Employee_Task_Manager
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\obj\Debug\net6.0-windows\
+Employee_Task_Manager
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Kevin\College\8050 - Alexander\Project\Employee Task Manager\App.xaml
+12-417019062
+
+191724915308
+199-1870378006
+Components\AdminDashboard.xaml;Components\AdminTaskCard.xaml;Components\Button.xaml;Components\Navbar.xaml;Components\UserDashboard.xaml;Components\UserTaskCard.xaml;MainWindow.xaml;Pages\AdminAddTask.xaml;Pages\Dashboard.xaml;Pages\Homepage.xaml;Pages\Loginpage.xaml;Pages\UserAddTask.xaml;
+
+True
+

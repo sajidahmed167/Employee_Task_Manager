@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Components\AdminDashboard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\AdminTaskCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\Button.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\Navbar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\UserDashboard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\UserTaskCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\AdminAddTask.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Dashboard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Homepage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Loginpage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\UserAddTask.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Components\AdminDashboard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\AdminTaskCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\Navbar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\UserDashboard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\UserTaskCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\AdminAddTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Dashboard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Homepage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Loginpage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\UserAddTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
